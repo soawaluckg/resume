@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous">
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun&amp;family=Varela+Round&amp;display=swap"
+      rel="stylesheet">
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid my-bg5"> <a class="navbar-brand" href="#"><img
+                src="images/woman.png" alt="user"></a>&nbsp;<button class="navbar-toggler"
+              type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span
+                class="navbar-toggler-icon"></span> </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item"> <a class="nav-link active" aria-current="page"
+                    href="#About%20Me" target="_top">About Me</a> </li>
+                <li class="nav-item"> <a class="nav-link" href="#Education" target="_top">Education</a>
+                </li>
+                <li class="nav-item"> <a class="nav-link" href="#languages/skills"
+                    target="_top">Languages / Skills</a> </li>
+                <li class="nav-item"> <a class="nav-link" href="#contact" target="_top">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <div class="row auto-mx text-center py-5 my-bg6">
+        <div> <img src="images/image01.jpg" class="rounded-circle shadow" alt="profile pic"
+            height="200" width="200"> </div>
+      </div>
+      <div class="row auto-mx text-center py-3 my-bg6">
+        <h1> Soawaluck Glintung </h1>
+        <p> Library and Infomation Science student </p>
+      </div>
+      <div class="row auto-mx text-center my-bg5 pb-5 py-3">
+        <div class="col-md-2"></div>
+        <div class="col-md-8  auto-mx text-center"> <img src="images/zany.png"
+            alt="woman">
+          <h2> <a name="About Me" id="About Me"></a>About Me </h2>
+          <h5 class="px-2"> "ดิฉันเป็นนักศึกษาชั้นปีที่ 3 จากคณะอักษรศาสตร์
+            เอกบรรณารักษ์และสารสนเทศ
+            ที่มีความรู้ด้านการจัดการทรัพยากรสารสนเทศและการประยุกต์ใช้เทคโนโลยี
+            ในการจัดการสารสนเทศอย่างมีประสิทธิภาพ
+            และมีความพร้อมที่จะใช้องค์ความรู้ในการทำงานในองค์กรที่ประสิทธิภาพ
+            เพื่อที่จะพัฒนาตนเองและองค์กรให้ดียิ่งขึ้น" </h5>
+        </div>
+      </div>
+      <div class="row auto-mx text-center my-bg6 py-5">
+        <div class="col-md-12"><img src="images/graduation-cap.png" alt="icon grag">
+          <h2><a name="Education" id="Education"></a>Education</h2>
+          <p> 2013-2019 : Chiangklang Prachapattana Nan</p>
+          <p> 2021-Now : Faculty of Arts @ Silpakorn University </p>
+        </div>
+      </div>
+      <div class="row auto-mx text-center py-5 my-bg5">
+        <div class="col-md-6"> <img src="images/world.png" alt="icon2">
+          <h2> Languages</h2>
+          <p> <img src="images/ellipsis.png" alt="lv3"> THA</p>
+          <p> <img src="images/ellipsis%20%281%29.png" alt="lv2"> ENG</p>
+          <p> <img src="images/ellipsis%20%281%29.png" alt="lv2"> KOR</p>
+          <p> <img src="images/ellipsis%20%282%29.png" alt="lv1"> FRA </p>
+        </div>
+        <div class="col-md-6"> <img src="images/skill-development.png" alt="icon3">
+          <h2> <a name="languages/skills" id="languages/skills"></a>Skills</h2>
+          <p> <img src="images/ellipsis%20%281%29.png" alt="lv2"> Photoshop</p>
+          <p> <img src="images/ellipsis%20%281%29.png" alt="lv2"> Premier Pro</p>
+          <p> <img src="images/ellipsis.png" alt="lv3"> Microsoft Office </p>
+        </div>
+      </div>
+      <div class="row auto-mx text-center py-5 my-bg6">
+        <div class="col-md-12"> <img src="images/user.png" alt="icon4">
+          <h2> <a name="contact" id="contact"></a>Contact </h2>
+          <p> <img src="images/email.png" alt="email"> : <a href="mailto:Soawaluck9499@gmail.com"
+              target="_blank">Soawaluck9499@gmail.com</a></p>
+          <h6> <img src="images/location.png" alt="loc">: 41/9
+            ถนนจันทรคามพิทักษ์ จังหวัดนครปฐม 73000 </h6>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+crossorigin="anonymous"></script>
+  </body>
+</html>
