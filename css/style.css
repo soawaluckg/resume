@@ -10,7 +10,7 @@ font-family: 'Varela Round', sans-serif;
 h2{
 font-family: 'Varela Round', sans-serif;
     font-size: 150 px;
-   color: #263D3D;
+   color: #4682B4;
 }
 
 h5{
@@ -39,16 +39,4 @@ font-family: 'Sarabun', sans-serif;
 my.text{
 font-family: 'Varela Round', sans-serif;
    color: #483D8B;
-}
-
-.my-bg5{
-  background-color: #9AB4BA;
-}
-
-.my-bg6{
-  background-color: #EDCBC5;
-}
-
-.my-bg7{
-  background-color: #D7DCE0;
 }
